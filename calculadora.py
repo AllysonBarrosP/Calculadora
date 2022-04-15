@@ -11,12 +11,15 @@ def mult(x,y):
 
 def div(x,y):
     return x / y
+def exp(x,y):
+    return x ** y
 
 print("Escolha a opção:")
 print("1 - Soma")
 print("2 - Sub")
 print("3 - Multiplicação")
 print("4 - Divisão")
+print("5 - Exponencial")
 
 escolha = input("Digite sua opção:")
 
@@ -31,5 +34,8 @@ elif escolha == '3':
     print(mult(num1, num2))
 elif escolha == '4':
     print(div(num1, num2))
+elif escolha == '5':
+    print(exp(num1, num2))
 else:
     print("Opção Inválida")
+
